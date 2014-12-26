@@ -1,11 +1,11 @@
-From f33aaed9edc320b39e75d93964c9169c9bb457a3 Mon Sep 17 00:00:00 2001
+From caeab3806536a5721c934dcccfff344705f5897f Mon Sep 17 00:00:00 2001
 From: Thinkofdeath <thinkofdeath@spigotmc.org>
 Date: Sun, 7 Sep 2014 12:33:15 +0100
 Subject: [PATCH] Implement bungee's chat api
 
 
 diff --git a/src/main/java/net/minecraft/server/PacketPlayOutChat.java b/src/main/java/net/minecraft/server/PacketPlayOutChat.java
-index fdbdcc6..001254f 100644
+index 5002bcb..77c2679 100644
 --- a/src/main/java/net/minecraft/server/PacketPlayOutChat.java
 +++ b/src/main/java/net/minecraft/server/PacketPlayOutChat.java
 @@ -5,6 +5,7 @@ import java.io.IOException;
@@ -14,9 +14,9 @@ index fdbdcc6..001254f 100644
      private IChatBaseComponent a;
 +    public net.md_5.bungee.api.chat.BaseComponent[] components; // Spigot
      private boolean b;
+     private int pos; // Spigot
  
-     public PacketPlayOutChat() {
-@@ -26,7 +27,15 @@ public class PacketPlayOutChat extends Packet {
+@@ -38,7 +39,15 @@ public class PacketPlayOutChat extends Packet {
      }
  
      public void b(PacketDataSerializer packetdataserializer) throws IOException {
@@ -120,5 +120,5 @@ index 35f2bfa..97a59a7 100644
  
      public Player.Spigot spigot()
 -- 
-1.9.1
+1.9.4.msysgit.2
 

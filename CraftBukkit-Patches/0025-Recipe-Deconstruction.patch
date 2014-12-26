@@ -1,4 +1,4 @@
-From de0f5a6cee8ef07bfd36704e2bd2b1cad437589b Mon Sep 17 00:00:00 2001
+From 52155890e70e8f918bf96913bfd1393c2f78e953 Mon Sep 17 00:00:00 2001
 From: md_5 <md_5@live.com.au>
 Date: Sat, 1 Jun 2013 16:34:38 +1000
 Subject: [PATCH] Recipe Deconstruction
@@ -67,5 +67,5 @@ index 0fab83c..21181fb 100644
 +    // Spigot end
  }
 -- 
-1.9.1
+1.9.4.msysgit.2
 

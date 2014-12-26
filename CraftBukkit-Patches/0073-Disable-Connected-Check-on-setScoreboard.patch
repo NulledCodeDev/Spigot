@@ -1,4 +1,4 @@
-From b1be536e4f947ba3f9b23a004d475d51b1245180 Mon Sep 17 00:00:00 2001
+From 52c14300fa5e04d739b433be357c7a7d6b31e6a3 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Mon, 23 Dec 2013 15:57:57 +1100
 Subject: [PATCH] Disable Connected Check on setScoreboard
@@ -18,5 +18,5 @@ index 6960a29..5a39069 100644
  
          this.server.getScoreboardManager().setPlayerBoard(this, scoreboard);
 -- 
-1.9.1
+1.9.4.msysgit.2
 
